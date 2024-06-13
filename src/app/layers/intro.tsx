@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link"; 
-import { SiGithub,SiDevdotto } from "react-icons/si";
+import { SiGithub,SiDevdotto, SiMedium } from "react-icons/si";
 import { BiEnvelope } from "react-icons/bi";
 import { IoIosDocument } from "react-icons/io";
 
@@ -51,7 +51,7 @@ function Introduction() {
           .
         </p>
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 my-5">
-          <Link href={"mailto:asantekwasi101@gmail.com"} target="_blank">
+          <Link href={"mailto:abdullahmustapha59@gmail.com"} target="_blank">
             <button className="btn rounded-full">
               <BiEnvelope />
               <p className="text-sm mt-0">contact</p>
@@ -59,22 +59,22 @@ function Introduction() {
           </Link>
           <div className="flex items-center gap-5">
             <Link
-              href={"https://github.com/topboyasante"}
+              href={"https://github.com/asap-alpha"}
               target="_blank"
               className="text-2xl"
             >
               <SiGithub />
             </Link>
             <Link
-              href={"https://dev.to/topboyasante"}
+              href={""}
               target="_blank"
               className="text-2xl"
             >
-              <SiDevdotto />
+              <SiMedium />
             </Link>
             <Link
               href={
-                "https://docs.google.com/document/d/1I8lAmB1oOnAa5HQC2TU3IDwcUTfED6a1/edit?pli=1#heading=h.gjdgxs"
+                "https://docs.google.com/document/d/1y46kIBLlpU7lt1Nx82RL5jnDPgpilo2tDgmPBSSV05c/edit?usp=sharing"
               }
               target="_blank"
               className="text-2xl"
