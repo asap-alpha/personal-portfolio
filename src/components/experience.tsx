@@ -1,4 +1,4 @@
-import { experience } from "@/data/experience";
+import { experience_json } from "@/data/experience_json";
 import Link from "next/link";
 
 function ExperienceSection() {
@@ -18,7 +18,7 @@ function ExperienceSection() {
       </div>
       <br />
       <div>
-        {experience.map((item) => {
+        {experience_json.map((item) => {
           return (
             <Link href={`${item.company_website}`} key={item.id}>
               <div className="border-b border-b-neutral-500 py-5 hover:scale-[1.02] ease-in-out duration-500">
@@ -26,6 +26,7 @@ function ExperienceSection() {
                   <h5>{item.company_name}</h5>
                   <p className="text-neutral-500 text-sm">{item.duration}</p>
                 </div>
+                <p className="text-neural-450">{item.role}</p>
                 <p className="text-neutral-500">{item.job_type}</p>
               </div>
             </Link>
