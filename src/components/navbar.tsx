@@ -12,11 +12,11 @@ function Navbar(){
                   projects
                 </p>
               </Link>
-              <Link href={`/blog`}>
+              {/* <Link href={`/blog`}>
                 <p className="text-sm hover:text-black ease-in duration-200">
                   posts
                 </p>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </nav>

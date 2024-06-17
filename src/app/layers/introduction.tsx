@@ -3,17 +3,18 @@ import Link from "next/link";
 import { SiGithub,SiDevdotto, SiMedium } from "react-icons/si";
 import { BiEnvelope } from "react-icons/bi";
 import { IoIosDocument } from "react-icons/io";
+import { UMaTLink, cryptocurrencyLink,resumerLink } from "@/data/constant_Json";
 
 function Introduction() {
   return (
     <div  className="pb-[10vh]">
       <div>
-        <h1 className="text-4xl font-bold">Hello, I'm Mustapha Abdallah</h1>
+        <h1 className="text-4xl font-bold">Hello there, I'm Mustapha Abdallah</h1>
         <p className="text-lg text-neutral-500">
-          I'm a software engineer based in Accra, Ghana.
+        A Software Engineer • c# (Asp.net core) • Dart (Flutter)
         </p>
         <p className="text-neutral-500">
-          deeply rooted in providing real world solution using  • Asp.net core • Flutter
+        based in Accra, Ghana.
         </p> 
       </div>
 
@@ -21,32 +22,35 @@ function Introduction() {
 
       <div>
         <p>
-            A Graduated from Deparment of Computer Science and Engineering with Bsc in Computer Science and Eng. {" "}
+            I Graduated with BSc in Computer Science And Engineering from University of Mines and Technology, {" "}
             <Link
               target="_blank"
               href={
-                "https://umat.edu.gh/"
+                UMaTLink
               }
               className="underline"
             >
-              UMaT
+              UMaT.
+              <br/> 
             </Link>
-            . Beyond my studies, I&apos;m a software engineer, writing code with
-            JavaScript and Go.
+            Beyond my studies, I&apos;m passionate about developing efficient solutions. 
+            Skilled in various programming languages and frameworks,
+             I specialize in creating, maintaining, and updating reliable software. 
+             My expertise lies in delivering high-quality, scalable applications that meet user needs and business objectives.
         </p>
         <br/>
         <p>
-          Currently, I&apos;m exploring the world of Backend and Cloud Engineering. When
-          I&apos;m not writing code, or buried in my books(hardly), you&apos;d
-          catch me finishing up an episode or two of{" "}
+          When
+          I&apos;m not either writing code, debuging code, thinking about stake holders requirments, reading programming books or articles, 
+          you&apos;d catch me buried in exploring the world of {" "}
           <Link
             target="_blank"
             href={
-              "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwTzY3MmD04inJSFUozswtKM7PKwYAUTYHdQ&q=the+simpsons&oq=the+simpsons&sourceid=chrome&ie=UTF-8"
+              cryptocurrencyLink
             }
             className="underline"
           >
-            The Simpsons
+            <b>cryptocurrency</b>
           </Link>
           .
         </p>
@@ -54,7 +58,7 @@ function Introduction() {
           <Link href={"mailto:abdullahmustapha59@gmail.com"} target="_blank">
             <button className="btn rounded-full">
               <BiEnvelope />
-              <p className="text-sm mt-0">contact</p>
+              <p className="text-sm mt-0">email</p>
             </button>
           </Link>
           <div className="flex items-center gap-5">
@@ -74,7 +78,7 @@ function Introduction() {
             </Link>
             <Link
               href={
-                "https://docs.google.com/document/d/1y46kIBLlpU7lt1Nx82RL5jnDPgpilo2tDgmPBSSV05c/edit?usp=sharing"
+                resumerLink
               }
               target="_blank"
               className="text-2xl"
