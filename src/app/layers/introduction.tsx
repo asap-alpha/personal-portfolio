@@ -14,8 +14,9 @@ function Introduction() {
         A Software Engineer • c# (Asp.net core) • Dart (Flutter)
         </p>
         <p className="text-neutral-500">
-        based in Accra, Ghana.
+        based in Accra, Ghana. 
         </p> 
+        
       </div>
 
       <br/>
