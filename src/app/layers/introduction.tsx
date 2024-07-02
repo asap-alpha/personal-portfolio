@@ -9,7 +9,7 @@ function Introduction() {
   return (
     <div  className="pb-[10vh]">
       <div>
-        <h1 className="text-4xl font-bold">Hello there, I'm Mustapha Abdallah</h1>
+        <h1 className="text-4xl font-bold">Hello there, I&apos;m Mustapha Abdallah</h1>
         <p className="text-lg text-neutral-500">
         A Software Engineer • c# (Asp.net core) • Dart (Flutter)
         </p>
