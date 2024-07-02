@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link"; 
-import { SiGithub,SiDevdotto, SiMedium } from "react-icons/si";
+import { SiGithub,SiMedium } from "react-icons/si";
 import { BiEnvelope } from "react-icons/bi";
 import { IoIosDocument } from "react-icons/io";
-import { UMaTLink, cryptocurrencyLink,resumerLink } from "@/data/constant_Json";
+import { UMaTLink, cryptocurrencyLink,github,medium_link,resumerLink, user_email } from "@/data/constant_Json";
 
 function Introduction() {
   return (
@@ -55,7 +55,7 @@ function Introduction() {
           .
         </p>
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 my-5">
-          <Link href={"mailto:abdullahmustapha59@gmail.com"} target="_blank">
+            <Link href={`mailto:${user_email}`} target="_blank">
             <button className="btn rounded-full">
               <BiEnvelope />
               <p className="text-sm mt-0">email</p>
@@ -63,23 +63,21 @@ function Introduction() {
           </Link>
           <div className="flex items-center gap-5">
             <Link
-              href={"https://github.com/asap-alpha"}
+              href={github}
               target="_blank"
               className="text-2xl"
             >
               <SiGithub />
             </Link>
             <Link
-              href={""}
+              href={medium_link}
               target="_blank"
               className="text-2xl"
             >
               <SiMedium />
             </Link>
             <Link
-              href={
-                resumerLink
-              }
+              href={resumerLink}
               target="_blank"
               className="text-2xl"
             >

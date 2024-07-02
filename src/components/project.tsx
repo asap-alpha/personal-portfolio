@@ -39,7 +39,7 @@ return(
             </Link>
             <div className="flex items-center gap-1 text-neutral-500 text-sm font-semibold tracking-tight">
                 <span>
-                  <IoIosCodeWorking />
+                  <IoIosCode />
                 </span>
                 <h6 className="text-neutral-500">{item.stack}</h6>
                 </div>
