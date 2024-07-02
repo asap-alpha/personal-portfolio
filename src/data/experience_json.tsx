@@ -13,7 +13,7 @@ export const experience_json = [
     job_type: "Full time",
     role:"Software Engineer, Cross-Functional Mobile Developer (Flutter)",
     duration: "June, 2021 – Present",
-    company_website: "https://hubtel.com/",
+    company_website: "https://mpedigree.com/en/",
     },
     {
     id :2,
