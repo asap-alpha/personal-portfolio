@@ -26,7 +26,7 @@ export const project_json = [
     {  
     id :3,
     name: "Gym Pack",
-    about: "This Web APi project contains a set of Endpoints intended be use for managing Gym Centers and allowing trainers to track a record of their trainees, facilating the purchasing of Gym Kits and Gym Goer can be assigned to sports medicine physician or nutritionists",
+    about: "This Web APi project contains a set of Endpoints intended to be use for managing Gym Centers and allowing trainers to track a record of their trainees, facilating the purchasing of Gym Kits and Gym Goer can be assigned to sports medicine physician or nutritionists",
     href: "https://github.com/asap-alpha/gymPack",
     href_text: "Github",
     stack: ["Asp.Net Core, C#, Clean Architecture, Ms Sql, Solid Principle, CQRS, RestFul APIs"],

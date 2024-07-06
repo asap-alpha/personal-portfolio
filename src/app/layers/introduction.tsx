@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link"; 
-import { SiGithub,SiMedium } from "react-icons/si";
+import { SiGithub,SiMedium, SiStackoverflow } from "react-icons/si";
 import { BiEnvelope } from "react-icons/bi";
 import { IoIosDocument } from "react-icons/io";
-import { UMaTLink, cryptocurrencyLink,github,medium_link,resumerLink, user_email } from "@/data/constant_Json";
+import { UMaTLink, cryptocurrencyLink,github,medium_link,resumerLink, stack_overflow, user_email } from "@/data/constant_Json";
 
 function Introduction() {
   return (
@@ -16,7 +16,7 @@ function Introduction() {
         <p className="text-neutral-500">
         based in Accra, Ghana. 
         </p> 
-        
+
       </div>
 
       <br/>
@@ -42,7 +42,7 @@ function Introduction() {
         <br/>
         <p>
           When
-          I&apos;m not either writing code, debuging code, thinking about stake holders requirments, reading programming books or articles, 
+          I&apos;m not either writing code, debuging code, thinking about stake holders requirements, reading programming books or articles, 
           you&apos;d catch me buried in exploring the world of {" "}
           <Link
             target="_blank"
@@ -76,6 +76,13 @@ function Introduction() {
               className="text-2xl"
             >
               <SiMedium />
+            </Link>
+            <Link
+              href={stack_overflow}
+              target="_blank"
+              className="text-2xl"
+            >
+              <SiStackoverflow />
             </Link>
             <Link
               href={resumerLink}

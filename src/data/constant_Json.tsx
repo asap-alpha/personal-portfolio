@@ -5,3 +5,4 @@ export const github = "https://github.com/asap-alpha";
 export const user_email = "abdullahmustapha59@gmail.com"; 
 export const medium_link = "https://medium.com/@abdullahmustapha59";
 export const medium_blog_link = "https://medium.com/me/stories/public";
+export const stack_overflow = "https://stackoverflow.com/users/16358984/abdallah-mustapha";
